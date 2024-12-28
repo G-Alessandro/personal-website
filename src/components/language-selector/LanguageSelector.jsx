@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import i18next from "../../i18next/i18next";
+import i18next from "../../i18next";
 import { useTranslation } from "react-i18next";
 
 const languageOptions = [
@@ -7,7 +7,7 @@ const languageOptions = [
   { language: "English", code: "en" },
 ];
 
-const LanguageSelector = () => {
+export default function LanguageSelector() {
   const [language, setLanguage] = useState(i18next.language);
 
   const { i18n } = useTranslation();
@@ -31,6 +31,4 @@ const LanguageSelector = () => {
       ))}
     </select>
   );
-};
-
-export default LanguageSelector;
+}
