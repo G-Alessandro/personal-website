@@ -1,6 +1,6 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./i18n.jsx";
+import "./i18next.jsx";
 import Router from "./Router";
 
 createRoot(document.getElementById("root")).render(
