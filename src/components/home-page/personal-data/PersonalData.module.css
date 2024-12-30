@@ -1,0 +1,80 @@
+.personalCard {
+  display: flex;
+  align-self: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.personalPhotoContainer {
+  width: 150px;
+  height: 150px;
+}
+
+.personalPhotoContainer > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dataContainer > h2 {
+  border-bottom: 2px solid black;
+}
+
+.EmailContainer,
+.linkContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.EmailContainer > img,
+.linkContainer > img {
+  width: 30px;
+  height: 30px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills > h3 {
+  margin: 10px;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.categories {
+  display: flex;
+  gap: 15px;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.languageContainer,
+.skillContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languageContainer > img,
+.skillContainer > img {
+  width: 40px;
+  height: 40px;
+}
