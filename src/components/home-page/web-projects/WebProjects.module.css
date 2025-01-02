@@ -1,0 +1,84 @@
+.webProjects {
+  align-self: center;
+}
+
+.webProjectsTitle {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.projectDataContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.projectDataContainerRight {
+  flex-direction: row-reverse;
+}
+
+.projectImageContainer {
+  width: 600px;
+  max-height: 500px;
+  box-shadow: 2px 2px 4px 4px #0000003b;
+}
+
+.projectImageContainer > img {
+  width: 100%;
+  height: 100%;
+}
+
+.projectDescription > h2 {
+  margin-bottom: 10px;
+}
+
+.projectDescription > h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.projectDescription > ul > li {
+  margin-left: 30px;
+}
+
+.linksContainer {
+  display: flex;
+  align-content: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.linksContainer > a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.linksContainer > a > img {
+  width: 30px;
+  height: 30px;
+}
+
+.techStackContainer {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.techStack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techStack > img {
+  width: 30px;
+  height: 30px;
+}
