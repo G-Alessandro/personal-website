@@ -19,7 +19,7 @@ export default function LanguageSelector() {
   };
 
   useEffect(() => {
-    document.body.dir = i18n.dir(); // Sets the body to ltr or rtl
+    document.body.dir = i18n.dir();
   }, [i18n.language]);
 
   return (
