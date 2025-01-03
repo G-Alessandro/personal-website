@@ -1,8 +1,16 @@
 .personalCard {
   display: flex;
+  flex-direction: column;
   align-self: center;
-  gap: 50px;
+  align-items: center;
   margin-top: 30px;
+  border-top: 1px solid black;
+}
+
+.personalInfoContainer {
+  display: flex;
+  gap: 50px;
+  padding: 20px 40px;
 }
 
 .personalPhotoContainer {
@@ -22,6 +30,15 @@
   gap: 10px;
 }
 
+.dataContainer > a {
+  width: fit-content;
+  transition: transform 0.2s;
+}
+
+.dataContainer > a:hover {
+  transform: scale(1.1);
+}
+
 .dataContainer > h2 {
   border-bottom: 2px solid black;
 }
@@ -39,42 +56,20 @@
   height: 30px;
 }
 
-.skills {
-  display: flex;
-  flex-direction: column;
-}
-
-.skills > h3 {
-  margin: 10px;
-}
-
-.languages {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.categories {
-  display: flex;
-  gap: 15px;
-}
-
-.categoryContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-}
-
-.languageContainer,
 .skillContainer {
   display: flex;
+  padding: 10px;
+  border-top: 1px solid black;
+  gap: 20px;
+}
+
+.skillContainer > div {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.languageContainer > img,
-.skillContainer > img {
-  width: 40px;
-  height: 40px;
+.skillContainer > div > img {
+  width: 30px;
+  height: 30px;
 }
