@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import i18next from "../../i18next";
 import { useTranslation } from "react-i18next";
+import style from "./LanguageSelector.module.css";
 
 const languageOptions = [
-  { language: "Italian", code: "it" },
+  { language: "Italiano", code: "it" },
   { language: "English", code: "en" },
 ];
 
@@ -23,7 +24,12 @@ export default function LanguageSelector() {
   }, [i18n.language]);
 
   return (
-    <select id="language" value={language} onChange={handleLanguageChange}>
+    <select
+      id="language"
+      value={language}
+      onChange={handleLanguageChange}
+      className={style.languageSelectorContainer}
+    >
       {languageOptions.map((option, index) => (
         <option value={option.code} key={index}>
           {option.language}
