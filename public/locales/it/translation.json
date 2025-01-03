@@ -1,0 +1,87 @@
+{
+  "tech-stack": {
+    "title": "Competenze Tecniche",
+    "programming-language": "Linguaggio di Programmazione"
+  },
+  "web-projects-title": "Progetti",
+  "links-string": { "live": "Anteprima", "gitHub": "Pagina Github" },
+  "web-project": [
+    {
+      "image": "messaging-app.png",
+      "name": "App Messaggistica",
+      "liveLink": "https://github.com/G-Alessandro/messaging-app",
+      "gitHubLink": "https://frontend-messaging-app.netlify.app/authentication-page",
+      "description": "App di messaggistica in tempo reale.",
+      "features": [
+        "Registrazione e accesso",
+        "Vedere se un utente è online/offline",
+        "Messaggiare in tempo reale",
+        "Invio immagini",
+        "Aggiungere/rimuovere un utente dalla lista amici",
+        "Creare/eliminare o abbandonare un gruppo",
+        "Personalizzare la propria immagine del profilo",
+        "Design responsivo per dispositivi mobili"
+      ],
+      "techStack": [
+        { "name": "HTML", "image": "html" },
+        { "name": "CSS", "image": "css" },
+        { "name": "JavaScript", "image": "javascript" },
+        { "name": "React", "image": "react" },
+        { "name": "Node.js", "image": "node-js" },
+        { "name": "Express", "image": "express" },
+        { "name": "MongoDB", "image": "mongo-db" },
+        { "name": "Mongoose", "image": "mongoose" }
+      ]
+    },
+    {
+      "image": "file-uploader.png",
+      "name": "App archiviazione file",
+      "liveLink": "https://fluffy-druid-2a5c81.netlify.app/authentication-page",
+      "gitHubLink": "https://github.com/G-Alessandro/file-uploader",
+      "description": "Applicazione di archiviazione e condivisione file.",
+      "features": [
+        "Registrazione e accesso",
+        "Provare l'applicazione tramite un account demo",
+        "Creare/eliminare cartelle e file",
+        "Modificare cartelle",
+        "Caricare immagini, audio, video e pdf",
+        "Scaricare i file caricati sull'applicazione",
+        "Condividere con altri utenti i file caricati",
+        "Design responsivo per dispositivi mobili"
+      ],
+      "techStack": [
+        { "name": "HTML", "image": "html" },
+        { "name": "CSS", "image": "css" },
+        { "name": "JavaScript", "image": "javascript" },
+        { "name": "React", "image": "react" },
+        { "name": "Node.js", "image": "node-js" },
+        { "name": "Express", "image": "express" },
+        { "name": "PostgreSQL", "image": "postgresql" },
+        { "name": "Prisma", "image": "prisma" }
+      ]
+    },
+    {
+      "image": "photo-tagging-game.png",
+      "name": "Trova l'immagine corretta",
+      "liveLink": "https://fluffy-empanada-a2d6c3.netlify.app/",
+      "gitHubLink": "https://github.com/G-Alessandro/photo-tagging-game",
+      "description": "Gioco stile dov'è Waldo",
+      "features": [
+        "Scelta dell'immagine da utilizzare",
+        "Cliccare e selezionare le immagini da trovare",
+        "Tabellone segnapunti dei vari giocatori in base all'immagine",
+        "Salvare il risultato"
+      ],
+      "techStack": [
+        { "name": "HTML", "image": "html" },
+        { "name": "CSS", "image": "css" },
+        { "name": "JavaScript", "image": "javascript" },
+        { "name": "React", "image": "react" },
+        { "name": "Node.js", "image": "node-js" },
+        { "name": "Express", "image": "express" },
+        { "name": "MongoDB", "image": "mongo-db" },
+        { "name": "Mongoose", "image": "mongoose" }
+      ]
+    }
+  ]
+}
