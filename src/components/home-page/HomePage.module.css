@@ -1,0 +1,5 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgb(247, 253, 255), white);
+}
