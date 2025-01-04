@@ -31,7 +31,7 @@ export default function PersonalData() {
 
           <a
             href="mailto:galloalessandro77@gmail.com"
-            className={style.EmailContainer}
+            className={style.linkContainer}
           >
             <img src={EmailSvg} />
             <p>galloalessandro77@gmail.com</p>
