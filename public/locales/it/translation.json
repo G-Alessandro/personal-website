@@ -9,8 +9,8 @@
     {
       "image": "messaging-app.png",
       "name": "App Messaggistica",
-      "liveLink": "https://github.com/G-Alessandro/messaging-app",
-      "gitHubLink": "https://frontend-messaging-app.netlify.app/authentication-page",
+      "liveLink": "https://frontend-messaging-app.netlify.app/authentication-page",
+      "gitHubLink": "https://github.com/G-Alessandro/messaging-app",
       "description": "App di messaggistica in tempo reale.",
       "features": [
         "Registrazione e accesso",
