@@ -13,6 +13,8 @@ const skills = [
   { name: "Express", image: "express" },
   { name: "PostgreSQL", image: "postgresql" },
   { name: "Prisma", image: "prisma" },
+  { name: "MongoDB", image: "mongo-db" },
+  { name: "Mongoose", image: "mongoose" },
   { name: "Git", image: "git" },
   { name: "GitHub", image: "github" },
   { name: "npm", image: "npm" },
