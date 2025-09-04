@@ -7,6 +7,36 @@
   "links-string": { "live": "Live Preview", "gitHub": "Github Repo" },
   "web-project": [
     {
+      "image": "no-waste.png",
+      "name": "NoWaste",
+      "liveLink": "https://no-waste.netlify.app/",
+      "gitHubLink": "https://github.com/G-Alessandro/no-waste",
+      "description": "App to avoid food waste.",
+      "features": [
+        "Registration and login",
+        "Use a demo account",
+        "Add or remove shops and items",
+        "View store locations on Google Maps",
+        "Detect your current location using geolocation",
+        "Save or delete your location",
+        "See the route between your location and a chosen store",
+        "View travel time and distance by car, walking, biking, or public transport",
+        "Filter stores by name, shortest travel distance, or fastest travel time",
+        "Filter items by name, type, price, expiration date, or days remaining before expiration",
+        "Responsive design for mobile devices"
+      ],
+      "techStack": [
+        { "name": "HTML", "image": "html" },
+        { "name": "CSS", "image": "css" },
+        { "name": "JavaScript", "image": "javascript" },
+        { "name": "React", "image": "react" },
+        { "name": "Node.js", "image": "node-js" },
+        { "name": "Express", "image": "express" },
+        { "name": "PostgreSQL", "image": "postgresql" },
+        { "name": "Prisma", "image": "prisma" }
+      ]
+    },
+    {
       "image": "messaging-app.png",
       "name": "Messaging App",
       "liveLink": "https://frontend-messaging-app.netlify.app/authentication-page",
