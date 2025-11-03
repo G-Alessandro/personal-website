@@ -1,4 +1,4 @@
-import PersonalPhoto from "/assets/images/personal-photo.jpg";
+import PersonalPhoto from "/assets/images/personal-photo.jpeg";
 import EmailSvg from "/assets/svg/email.svg";
 import LinkedinSvg from "/assets/svg/linkedin.svg";
 import GitHubSvg from "/assets/svg/github.svg";
