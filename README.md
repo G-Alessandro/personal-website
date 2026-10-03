@@ -36,8 +36,8 @@
     <li><a href="https://www.svgrepo.com/svg/330398/expres" target="_blank">Express</a></li>
     <li><a href="https://www.svgrepo.com/svg/354200/postgresql" target="_blank">PostgreSQL</a></li>
     <li><a href="https://www.svgrepo.com/svg/354210/prisma" target="_blank">Prisma</a></li>
-     <li><a href="https://www.svgrepo.com/svg/331488/mongodb" target="_blank">MongoDB</a></li>
-      <li><a href="https://techicons.dev/icons/mongoose" target="_blank">Mongoose</a></li>
+    <li><a href="https://www.svgrepo.com/svg/331488/mongodb" target="_blank">MongoDB</a></li>
+    <li><a href="https://techicons.dev/icons/mongoose" target="_blank">Mongoose</a></li>
     <li><a href="https://www.svgrepo.com/svg/452210/git" target="_blank">Git</a></li>
     <li><a href="https://www.svgrepo.com/svg/286219/web-page-website" target="_blank">Preview</a></li>
     <li><a href="https://www.svgrepo.com/svg/303615/github-icon-1-logo" target="_blank">GitHub</a></li>
@@ -46,4 +46,6 @@
     <li><a href="https://thesvg.org/icon/zod" target="_blank">Zod</a></li>
     <li><a href="https://www.svgrepo.com/svg/452192/docker?edit=true" target="_blank">Docker</a></li>
     <li><a href="https://www.svgrepo.com/svg/341805/expo?edit=true" target="_blank">Expo</a></li>
+    <li><a href="https://www.streamlinehq.com/icons/download/vitest--31103" target="_blank">Vitest</a></li>
+    <li><a href="https://www.streamlinehq.com/icons/download/jwt-icon--31103" target="_blank">JWT</a></li>
 </ul>
