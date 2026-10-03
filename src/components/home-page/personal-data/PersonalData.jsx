@@ -8,9 +8,13 @@ const skills = [
   { name: "HTML", image: "html" },
   { name: "CSS", image: "css" },
   { name: "JavaScript", image: "javascript" },
+  { name: "TypeScript", image: "typescript" },
   { name: "React", image: "react" },
+  { name: "React Native", image: "react" },
+  { name: "Expo", image: "expo" },
   { name: "NodeJS", image: "node-js" },
   { name: "Express", image: "express" },
+  { name: "Zod", image: "zod" },
   { name: "PostgreSQL", image: "postgresql" },
   { name: "Prisma", image: "prisma" },
   { name: "MongoDB", image: "mongo-db" },
@@ -18,6 +22,7 @@ const skills = [
   { name: "Git", image: "git" },
   { name: "GitHub", image: "github" },
   { name: "npm", image: "npm" },
+  { name: "Docker", image: "docker" },
 ];
 
 export default function PersonalData() {
