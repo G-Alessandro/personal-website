@@ -48,4 +48,5 @@
     <li><a href="https://www.svgrepo.com/svg/341805/expo?edit=true" target="_blank">Expo</a></li>
     <li><a href="https://www.streamlinehq.com/icons/download/vitest--31103" target="_blank">Vitest</a></li>
     <li><a href="https://www.streamlinehq.com/icons/download/jwt-icon--31103" target="_blank">JWT</a></li>
+    <li><a href="https://www.svgrepo.com/svg/429926/download-arrow-down" target="_blank">APK Download</a></li>
 </ul>
