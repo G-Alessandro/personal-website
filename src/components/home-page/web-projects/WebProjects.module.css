@@ -18,6 +18,7 @@
 
 .projectDataContainer {
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -36,6 +37,12 @@
   height: 100%;
 }
 
+.mobileAppGif {
+  width: 200px;
+  height: auto;
+  margin-left: 400px;
+}
+
 .projectDescription > h2 {
   margin-bottom: 10px;
 }
@@ -46,7 +53,9 @@
 }
 
 .projectDescription > ul > li {
+  width: 400px;
   margin-left: 30px;
+  margin-bottom: 5px;
 }
 
 .linksContainer {
