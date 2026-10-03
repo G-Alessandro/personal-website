@@ -42,4 +42,8 @@
     <li><a href="https://www.svgrepo.com/svg/286219/web-page-website" target="_blank">Preview</a></li>
     <li><a href="https://www.svgrepo.com/svg/303615/github-icon-1-logo" target="_blank">GitHub</a></li>
     <li><a href="https://www.svgrepo.com/svg/452077/npm" target="_blank">npm</a></li>
+    <li><a href="https://www.svgrepo.com/svg/374146/typescript-official" target="_blank">TypeScript</a></li>
+    <li><a href="https://thesvg.org/icon/zod" target="_blank">Zod</a></li>
+    <li><a href="https://www.svgrepo.com/svg/452192/docker?edit=true" target="_blank">Docker</a></li>
+    <li><a href="https://www.svgrepo.com/svg/341805/expo?edit=true" target="_blank">Expo</a></li>
 </ul>
