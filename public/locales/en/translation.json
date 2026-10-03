@@ -4,8 +4,34 @@
     "programming-language": "Programming Language"
   },
   "web-projects-title": "Projects",
-  "links-string": { "live": "Live Preview", "gitHub": "Github Repo" },
+  "links-string": { "live": "APK download page", "gitHub": "Github Repo" },
   "web-project": [
+    {
+      "image": "whats-cooking.gif",
+      "name": "What's Cooking",
+      "liveLink": "https://github.com/G-Alessandro/whats-cooking/releases/tag/v1.0.0",
+      "gitHubLink": "https://github.com/G-Alessandro/whats-cooking",
+      "description": "Mobile application for searching recipes.",
+      "features": [
+        "User registration and authentication",
+        "Search for recipes using the Spoonacular API",
+        "Viewing recipe instructions",
+        "Managing favorite recipes"
+      ],
+      "techStack": [
+        { "name": "TypeScript", "image": "typescript" },
+        { "name": "React Native", "image": "react" },
+        { "name": "Expo", "image": "expo" },
+        { "name": "Node.js", "image": "node-js" },
+        { "name": "Express", "image": "express" },
+        { "name": "Zod", "image": "zod" },
+        { "name": "PostgreSQL", "image": "postgresql" },
+        { "name": "Prisma", "image": "prisma" },
+        { "name": "Docker", "image": "docker" },
+        { "name": "JWT", "image": "jwt" },
+        { "name": "Vitest", "image": "vitest" }
+      ]
+    },
     {
       "image": "no-waste.png",
       "name": "NoWaste",
@@ -20,9 +46,9 @@
         "Detect your current location using geolocation",
         "Save or delete your location",
         "See the route between your location and a chosen store",
-        "View travel time and distance by car, walking, biking, or public transport",
-        "Filter stores by name, shortest travel distance, or fastest travel time",
-        "Filter items by name, type, price, expiration date, or days remaining before expiration",
+        "View route time and distance",
+        "Filter stores by name, distance, or travel time.",
+        "Filter items by name, type, price, or expiration date.",
         "Responsive design for mobile devices"
       ],
       "techStack": [
@@ -33,7 +59,8 @@
         { "name": "Node.js", "image": "node-js" },
         { "name": "Express", "image": "express" },
         { "name": "PostgreSQL", "image": "postgresql" },
-        { "name": "Prisma", "image": "prisma" }
+        { "name": "Prisma", "image": "prisma" },
+        { "name": "JWT", "image": "jwt" }
       ]
     },
     {

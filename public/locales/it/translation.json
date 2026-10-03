@@ -4,8 +4,37 @@
     "programming-language": "Linguaggio di Programmazione"
   },
   "web-projects-title": "Progetti",
-  "links-string": { "live": "Anteprima", "gitHub": "Pagina Github" },
+  "links-string": {
+    "live": "Pagina per scaricare l'APK",
+    "gitHub": "Pagina Github"
+  },
   "web-project": [
+    {
+      "image": "whats-cooking.gif",
+      "name": "What's Cooking",
+      "liveLink": "https://github.com/G-Alessandro/whats-cooking/releases/tag/v1.0.0",
+      "gitHubLink": "https://github.com/G-Alessandro/whats-cooking",
+      "description": "Applicazione mobile per cercare ricette.",
+      "features": [
+        "Registrazione e autenticazione utente",
+        "Ricerca ricette tramite Spoonacular API",
+        "Visualizzazione delle istruzioni delle ricette",
+        "Gestione delle ricette preferite"
+      ],
+      "techStack": [
+        { "name": "TypeScript", "image": "typescript" },
+        { "name": "React Native", "image": "react" },
+        { "name": "Expo", "image": "expo" },
+        { "name": "Node.js", "image": "node-js" },
+        { "name": "Express", "image": "express" },
+        { "name": "Zod", "image": "zod" },
+        { "name": "PostgreSQL", "image": "postgresql" },
+        { "name": "Prisma", "image": "prisma" },
+        { "name": "Docker", "image": "docker" },
+        { "name": "JWT", "image": "jwt" },
+        { "name": "Vitest", "image": "vitest" }
+      ]
+    },
     {
       "image": "no-waste.png",
       "name": "NoWaste",
@@ -20,9 +49,9 @@
         "Rilevare la propria posizione tramite geolocalizzazione",
         "Salvare o eliminare la propria posizione",
         "Vedere il percorso tra la propria posizione e il negozio scelto",
-        "Visualizzare tempo e distanza del percorso in auto, a piedi, in bici o con i mezzi pubblici",
-        "Filtrare i negozi per nome, distanza più breve o tempo di viaggio più veloce",
-        "Filtrare gli articoli per nome, tipo, prezzo, data di scadenza o giorni rimanenti alla scadenza",
+        "Visualizzare tempo e distanza del percorso",
+        "Filtrare i negozi per nome, distanza o tempo di viaggio",
+        "Filtrare gli articoli per nome, tipo, prezzo o scadenza",
         "Design responsivo per dispositivi mobili"
       ],
       "techStack": [
@@ -33,7 +62,8 @@
         { "name": "Node.js", "image": "node-js" },
         { "name": "Express", "image": "express" },
         { "name": "PostgreSQL", "image": "postgresql" },
-        { "name": "Prisma", "image": "prisma" }
+        { "name": "Prisma", "image": "prisma" },
+        { "name": "JWT", "image": "jwt" }
       ]
     },
     {
