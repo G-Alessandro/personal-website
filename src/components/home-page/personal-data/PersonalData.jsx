@@ -23,6 +23,8 @@ const skills = [
   { name: "GitHub", image: "github" },
   { name: "npm", image: "npm" },
   { name: "Docker", image: "docker" },
+  { name: "JWT", image: "jwt" },
+  { name: "Vitest", image: "vitest" },
 ];
 
 export default function PersonalData() {
