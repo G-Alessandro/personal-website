@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import PreviewSvg from "/assets/svg/preview.svg";
 import GitHubSvg from "/assets/svg/github.svg";
+import ApkDownloadSvg from "/assets/svg/apk-download.svg";
 import style from "./WebProjects.module.css";
 
 export default function WebProjects() {
@@ -17,11 +18,14 @@ export default function WebProjects() {
         return (
           <div key={projectIndex} className={style.project}>
             <div
-              className={`${style.projectDataContainer} ${
-                projectIndex % 2 !== 0 ? style.projectDataContainerRight : ""
-              }`}
+              // className={`${style.projectDataContainer} ${
+              //   projectIndex % 2 !== 0 ? style.projectDataContainerRight : ""
+              // }`}
+              className={style.projectDataContainer}
             >
-              <div className={style.projectImageContainer}>
+              <div
+                className={`${style.projectImageContainer} ${project.image.includes(".gif") ? style.mobileAppGif : ""}`}
+              >
                 <img src={`/assets/images/web-project/${project.image}`} />
               </div>
 
@@ -30,7 +34,13 @@ export default function WebProjects() {
                 <p>{project.description}</p>
                 <div className={style.linksContainer}>
                   <a href={project.liveLink} target="_blank">
-                    <img src={PreviewSvg} />
+                    <img
+                      src={
+                        project.image.includes(".gif")
+                          ? ApkDownloadSvg
+                          : PreviewSvg
+                      }
+                    />
                     {liveLink}
                   </a>
                   <a href={project.gitHubLink} target="_blank">
